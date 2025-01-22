@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casteria</title>
+    <link rel="stylesheet" href="base.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+</head>
+
+<body> 
+
+  <nav class="navbar navbar-light navbar-expand-sm"  style="background-color: lightgray">
+      <a class="navbar-brand mb-0 h3" href="#">Casteria</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span> 
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarDropdown" >
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link active" href="#">Home</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Food</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Drink</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">お問い合わせ</a>
+            </li>
+            <form class="form-inline d-flex flex-row">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-light my-2 my-sm-0" type="submit">Search</button>
+            </form>  
+        </ul>
+      </div>
+  </nav>
+
+  <div class="SwiperContainer"> 
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/interior.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/restaurant.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/food.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/food2.jpg" alt=""></div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <div class="swiper-scrollbar"></div>
+  </div>
+
+  <div class="page">
+
+   <h1>新型コロナウィルスに対する取り組みの最新情報をご案内</h1>
+
+   <div class="page-header">■衛生面に関して</div>
+    <div class="page-content">
+     <p>・マスクを着用しての接客</p>
+     <p>・出勤前の検温の徹底</p>
+     <p>・レジカウンターやドリンク受け渡し口等への飛沫防止ガードの設置</p>
+     <p>・より頻度の高い手洗いの励行</p>
+     <p>・テーブルにお客様用の消毒用アルコールの設置</p>
+     <p>・従業員間の距離確保のため、休憩や研修時の客席利用</p>
+    </div>
+
+   <div class="page-header">■お客様へご協力のお願い</div>
+    <div class="page-content"> 
+     <p>・店内では、飲食時以外のマスク着用をお願いいたします</p>
+     <p>・入店時の手指の消毒にご協力ください</p>
+     <p>・レジに並ぶ際、目安を示すフロアステッカーに沿った列間隔の確保にご協力ください</p>
+     <p>・多数でお越しの際は、お１人がまとめてご注文願います（混雑時に入場制限をする場合がございます）</p>
+     <p>・発熱や体調不良の際はご入店をお控えください</p>
+    </div>
+
+   <div class="page-header">■サービスに関して</div>
+    <div class="page-content">
+     <p>・直接お渡しする商品の提供、金銭授受時にグローブの着用</p>
+     <p>・ドリンクやフードのサンプリング中止</p>
+     <p>・地域活動・イベントの中止</p>
+     <p>・混雑時間帯の客席や譲り合いへのご協力お願いの実施</p>
+     <p>・店内設置しているミルク、はちみつ、パウダー類の一時引き下げ</p>
+     <p>・混雑状況に応じたドライブスルーサービスの一時休止や店内客席利用の制限</p>
+    </div>
+ 
+    <div class="Signature-Food">
+     <div class="food-food">Signature Food</div>
+     <div class="food-image"> 
+       <p><img src="img/food.jpg"></p>
+       <p>サーモンは刺身やカルパッチョで食べるのが美味しいですが、リッチな気分になれるサーモンステーキがおすすめです。サーモンの美味しさを引き立てる２種のソースも絶品です！
+       </p>
+     </div>
+    </div>
+   
+    <div class="Our-Coffee">
+     <div class="food-food">Our Coffee</div>
+     <div class="food-image">
+       <p><img src="img/barista.jpg"></p>
+       <p>当店のコーヒー豆は厳選して世界中から買い付けています。そして、そのコーヒー豆のおいしさを最大限に引き出すために自社のロースタリーで焙煎しています。
+       </p>
+     </div>
+    </div>
+
+    <div class="Our-Food">
+     <div class="food-food">Our Food</div>
+     <div class="food-image">
+       <p><img src="img/food3.jpg"></p>
+       <p>当店は何よりまずは衛生管理に気をつけています。「安全・安心」をお届けするために日々継続的な努力を惜しみません。
+       </p>
+     </div>
+    </div>
+
+   <div class="address">
+    <div class="address-text1">
+     <h3 class="address-text2">Address</h3>
+     <h6>681 xxxx Drive,xxxxx xxxx #01 - 06 000000</h6>
+     <h6>Opening Hours</h6>
+     <h3 class="address-text2">Mondays - Friday: 10am - 9pm</h3>
+     <h6>Saturdays,Sundays&Public Holidsays: 9am-9pm</h6>
+    </div>
+    <img src="img/barista.jpg" alt="">
+   </div>
+
+   <div class="tenpo">
+    <div style="text-align: center;font-size:30px">店舗一覧</div>
+    <div class="tenpos">
+     <div>
+      <p><img src="img/restaurant2.jpg"></p>
+      <p>東京都渋谷区xxxxxx xxxxx</p>
+     </div>
+     <div>
+      <p><img src="img/restaurant3.jpg"></p>
+      <p>千葉県松戸市xxxxx xxxxx</p>
+     </div>
+     <div>
+      <p><img src="img/restaurant4.jpg"></p>
+      <p>神奈川県横浜市xxxxx xxxx</p>
+     </div>
+     <div>
+      <p><img src="img/restaurant5.jpg"></p>
+      <p>埼玉県川越市xxxxx xxxx</p>
+     </div>
+    </div>
+   </div>
+  </div>
+
+ <footer>
+    <ul class="footer-menu">
+      <li>プライバシーポリシー </li>
+      <li>お問い合わせ </li>
+      <li>運営会社 </li>
+    </ul>
+ </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
