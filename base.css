@@ -33,7 +33,9 @@ body {
 	box-sizing: border-box;
 }
 
-
+body{
+	background-color: #FFEFD5 !important; 
+}
 
 
 .SwiperContainer{

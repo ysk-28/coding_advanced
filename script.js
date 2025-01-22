@@ -8,7 +8,6 @@
             slidesPerView:2,
         }
     },
-    
     navigation:{
         nextEl:".swiper-button-next",
         prevEl:".swiper-button-prev"
@@ -21,24 +20,22 @@
         hide:false,
     },
     autoplay:true,
-
  });
 
 
 $('.page-header').click(function(){
     $(this).next().slideToggle();
     $(this).toggleClass('active');
-        
- });
+});
 
 
- $(window).scroll(function() {
+$(window).scroll(function(){
     const wHeight = $(window).height();
     const wScroll = $(window).scrollTop();
-     $(".Signature-Food,.Our-Coffee,.Our-Food,.address,.tenpo").each(function(){
+    $(".Signature-Food,.Our-Coffee,.Our-Food,.address,.tenpo").each(function(){
         const bPosition = $(this).offset().top;
-       if(wScroll>bPosition-wHeight+100){
-        $(this).addClass("fadeIn");
-       }
-     });
+        if(wScroll>bPosition-wHeight+100){
+            $(this).addClass("fadeIn");
+        }
     });
+});
